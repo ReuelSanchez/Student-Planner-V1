@@ -1,0 +1,15 @@
+{
+  "name": "student-digital-planner",
+  "version": "1.0.0",
+  "description": "A customizable digital planner for students.",
+  "private": true,
+  "scripts": {
+    "build": "babel . --out-dir dist --extensions '.ts,.tsx' --copy-files --no-copy-ignored"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/preset-react": "^7.24.1",
+    "@babel/preset-typescript": "^7.24.1"
+  }
+}
